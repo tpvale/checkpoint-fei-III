@@ -70,11 +70,11 @@ html {
 		.nav-link {
 			color: #465765;
 			&:focus {
-				color: #37434d;
+				color: #6610f2;
 				background-color: transparent;
 			}
 			&:hover {
-				color: #37434d;
+				color: #6610f2;
 				background-color: transparent;
 			}
 		}
@@ -103,11 +103,6 @@ html {
 #site-nav-navbar {
 	padding: 10px 0;
 	width: 100%;
-}
-#site-nav-menu.navbar-collapse.collapse.show {
-	padding:20px;
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 20px;
 }
 ul.navbar-nav {
 	font-weight: 700;
