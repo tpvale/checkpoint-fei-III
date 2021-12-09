@@ -25,7 +25,8 @@
 									<a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Sobre</a>
 									<div class="dropdown-menu"><a class="dropdown-item" href="#">Matheus Ferreira</a><a class="dropdown-item" href="#">Tiago Vale</a><a class="dropdown-item" href="#">Rafael Soares</a></div>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="#"><button id="site-button" class="button-login btn btn-primary text-uppercase" type="button">Fazer Login</button></a></li>
+								<li class="nav-item"><a class="nav-link" href="#"><button id="site-button" class="button-login btn btn-primary text-uppercase" type="button" data-bs-target="#myModal" data-bs-toggle="modal"
+									>Fazer Login</button></a></li>
 							</ul>
 						</div>
 					</div>
@@ -179,6 +180,37 @@
 			</div>
 		</footer>
         <!-- Fim: Rodapé -->
+
+				<!-- Início: Modal Login -->
+				<div id="myModal" class="modal fade" tabindex="-1" role="dialog"><!-- Início do código da janela modal -->
+					<div class="modal-dialog">
+							<div class="modal-content">
+									<div class="modal-header"><!-- Header do modal -->
+										<a href="#"><img src="img/logo.png" alt="Streamy Logo"></a>
+									</div>
+									<div class="modal-sub">
+										<h4>Faça o login para continuar</h4>
+									</div>
+									<div class="modal-body"><!-- Corpo do modal -->
+											<form action=""><!-- Início do Formulário -->
+													<div class="form-group">
+															<input type="email" class="form-control" placeholder="Digite seu email">
+													</div>
+													<div class="form-group">
+															<input type="password" class="form-control" placeholder="Digite sua senha">
+													</div>
+													<button class="btn btn-block btn-info">Enviar</button>
+											</form>
+									</div>
+									<div class="modal-footer"><!-- Footer do Modal -->
+											<button type="button" class="btn btn-default" data-dismiss="modal">
+													Fechar <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+											</button>                
+									</div>
+							</div>
+					</div>
+				</div>
+				<!-- Fim: Modal Login -->
 
         <!-- Início: Scripts -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
