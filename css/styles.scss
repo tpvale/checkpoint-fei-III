@@ -2,6 +2,10 @@ html {
 	scroll-padding-top: 70px;
 }
 
+.loginForm {
+	margin: 5px 0px;
+}
+
 .navigation-clean {
 	background-color: #fff;
 	padding-top: .75rem;
@@ -171,12 +175,6 @@ ul.navbar-nav {
 	}
 }
 
-.modal-sub {
-	h4 {
-		text-align: center;
-	}
-}
-
 footer {
 	background-color: #333;
 	#container-cartoes {
@@ -209,9 +207,24 @@ footer {
 		color: #a0a0a0;
 	}
 }
+.modal-dialog-centered { 
+	width:100%;
+	max-width:400px;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
 @media (min-width:768px) {
 	.navigation-clean {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
+	}
+}
+@media(max-width:380px) {
+	.modal-dialog-centered { 
+		max-width:320px;
 	}
 }
