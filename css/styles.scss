@@ -50,18 +50,18 @@ html {
 .navigation-clean.navbar-light {
 	.navbar-nav {
 		.nav-link.active {
-			color: #8f8f8f;
+			color: #6610f2;
 			box-shadow: none;
 			background: none;
 			pointer-events: none;
 			&:focus {
-				color: #8f8f8f;
+				color: #6610f2;
 				box-shadow: none;
 				background: none;
 				pointer-events: none;
 			}
 			&:hover {
-				color: #8f8f8f;
+				color: #6610f2;
 				box-shadow: none;
 				background: none;
 				pointer-events: none;
@@ -110,6 +110,10 @@ ul.navbar-nav {
 #site-main-hero {
 	height: 92.2vh;
 	background: linear-gradient(90deg,rgba(181,94,255,0.6),rgba(254,138,100,0.6) 34%,rgba(0,207,208,0.6) 71%,rgba(252,131,115,0.6) 100%),url(../img/movies-bg.jpg) center/cover no-repeat;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 #site-main-hero-content {
 	max-width: 680px;
