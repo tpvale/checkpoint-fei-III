@@ -50,3 +50,8 @@ Esse projeto apesar de ter um tema que será definido pelo grupo (até 3 integra
 1. Matheus Rayol
 2. Tiago Vale
 3. Rafael Soares
+
+# Conteúdo externo utilizado
+1. Pacote de ícones FontAwesome;
+2. Família de fontes *Mont Trial* da *FontFabric*;
+3. Script em JS para alteração de links *anchor* ativos, encontrado no **Stackoverflow**.
