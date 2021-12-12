@@ -1,5 +1,5 @@
 // Get the container element
-var menuItemContainer = document.getElementById("site-nav-navbar");
+var menuItemContainer = document.getElementById("navcol-1");
 
 // Get all buttons with class="btn" inside the container
 var btns = menuItemContainer.getElementsByClassName("nav-link");
