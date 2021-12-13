@@ -2,6 +2,9 @@
 
 Olá! Este é o repositório que contém os arquivos do Projeto **Streamy** criado para o *Checkpoint III* do módulo de **Front-End** do **Certified Tech Developer**, na **Digital House**.
 
+## Github Pages
+**link:** https://tpvale.github.io/checkpoint-fei-III/index.html
+
 ## Requisitos do projeto
 
 Esse projeto apesar de ter um tema que será definido pelo grupo (até 3 integrantes), deverá cumprir algumas exigências.
